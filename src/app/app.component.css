@@ -1,0 +1,30 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 57px;
+    background-color: #F48023;
+
+    a.active{
+        background: #141a33;
+    }
+
+    a{
+        font-weight: 300;
+        font-size: 15px;
+        border-radius: 0px;
+        color: white;
+    }
+    a.ant-btn{
+        &:hover{
+            color: white;
+            background: #F48023;
+        }
+    }
+    img{
+        width: 180px;
+    }
+    .img_profile{
+        width: 25px;
+    }
+}
